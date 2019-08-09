@@ -1,6 +1,6 @@
 # Create a web page to view the results
 
-In the [previous step](./CallTheWebApiFromDesktop.md) you connected the photo taking app to the Web Api and tested it out, uploading a picture and seeing the results of the analysis in Cosmos DB. In this step you will create a web page to view the data from the database.
+In the [previous step](./AlertTheUser.md) you alerted the user via the command line if sad faces are detected too often. In this step you will create a web page to view the data from the database.
 
 ## Rendering HTML
 

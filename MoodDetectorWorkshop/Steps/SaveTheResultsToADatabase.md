@@ -213,4 +213,4 @@ The `doc` object contains the face information, and it is inserted into the coll
 
 ## Next steps
 
-In this step you created a Cosmos DB collection, and saved the results of the analysis into a database. In the [next step](./CallTheWebApiFromDesktop.md) you will connect the photo taking app to the Web Api to test it out.
+In this step you created a Cosmos DB collection, and saved the results of the analysis into a database. In the [next step](./ReturnTheEmotionCount.md) you will return the count of each emotion from this Web Api.

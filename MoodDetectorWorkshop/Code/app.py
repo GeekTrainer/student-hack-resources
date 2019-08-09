@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from azure.cognitiveservices.vision.face import FaceClient
 from msrest.authentication import CognitiveServicesCredentials
 import io
@@ -37,6 +37,15 @@ def best_emotion(emotion):
     emotions['surprise'] = emotion.surprise
     return max(zip(emotions.values(), emotions.keys()))[1]
 
+def get_emotions():
+    docs = list(client.ReadItems(cosmos_collection_link))
+    emotions = [d['emotion'] for d in docs]
+    counts = dict()
+    for emotion in emotions:
+        counts[emotion] = counts.get(emotion, 0) + 1
+
+    return jsonify(counts)
+
 @app.route('/image', methods=['POST'])
 def upload_image():
     json = request.get_json()
@@ -53,4 +62,4 @@ def upload_image():
               }
         client.CreateItem(cosmos_collection_link, doc)
 
-    return 'OK'
+    return get_emotions()

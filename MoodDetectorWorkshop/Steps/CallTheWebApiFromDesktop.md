@@ -1,6 +1,6 @@
 # Call the Web Api from the photo taking app
 
-In the [previous step](./SaveTheResultsToADatabase.md) you created a Cosmos DB collection, and saved the results of the analysis into a database. In this step you will connect the photo taking app to the Web Api to test it out.
+In the [previous step](./ReturnTheEmotionCount.md) you returned the count of each emotion from the Web Api. In this step you will connect the photo taking app to the Web Api to test it out.
 
 ## Calling a Web Api
 
@@ -157,4 +157,4 @@ The `upload` function is called once the frame is captured and the **space** key
 
 ## Next step
 
-In this step you connected the photo taking app to the Web Api and tested it out, uploading a picture and seeing the results of the analysis in Cosmos DB. In the [next step](./ViewTheResults.md) you will create a web page to view the data from the database.
+In this step you connected the photo taking app to the Web Api and tested it out, uploading a picture and seeing the results of the analysis in Cosmos DB. In the [next step](./AlertTheUser.md) you will alert the user via the command line if sad faces are detected too often.
