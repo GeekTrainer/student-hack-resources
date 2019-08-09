@@ -84,4 +84,4 @@ For reference, you can find the final code for this workshop in the [Code](./Cod
 
 ## Clean up Azure resources
 
-This workshop uses resources that are available in the [Azure for Students account as free services](https://azure.microsoft.com/en-us/free/free-account-students-faq/). As there are limits on the number of free services you can create, you may want to delete the resources created once you are done. The instructions to do this are in the last step - [Clean up](./Steps/CleanUp.md).
+This workshop uses resources that are available in the [Azure for Students account as free services](https://azure.microsoft.com/free/free-account-students-faq/?WT.mc_id=pythonworkshop-github-jabenn). As there are limits on the number of free services you can create, you may want to delete the resources created once you are done. The instructions to do this are in the last step - [Clean up](./Steps/CleanUp.md).
