@@ -8,7 +8,7 @@ The detected emotions are stored in the Cosmos DB database as individual documen
 
 ## Returning data from a Web Api call
 
-REST calls can return data, and this is typically done as JSON, the same way that data is sent. The `upload_image` function that handles the `image` route currently returns `"OK"`, a string containing a message that the call worked. This can be changed to return the dictionary of emotions to count as a JSON document.
+REST calls can return data, and this is typically done as JSON, the same way that data is sent. The `upload_image` function that handles the `image` route currently returns `'OK'`, a string containing a message that the call worked. This can be changed to return the dictionary of emotions to count as a JSON document.
 
 The format of this JSON is emotion to count, with each emotion as a separate property in the JSON document.
 
@@ -31,7 +31,7 @@ The format of this JSON is emotion to count, with each emotion as a separate pro
   from flask import Flask, request, jsonify
   ```
 
-* Add a new function called `get_emotions` before the `upload_image` function, with the following code:
+* Add a new function called `get_emotions` above the `upload_image` function, with the following code:
 
   ```python
   def get_emotions():
@@ -44,7 +44,7 @@ The format of this JSON is emotion to count, with each emotion as a separate pro
     return jsonify(counts)
   ```
 
-* In the `upload_image` function, replace the `return "OK"` statement with the following code:
+* In the `upload_image` function, replace the `return 'OK'` statement with the following code:
   
   ```python
   return get_emotions()

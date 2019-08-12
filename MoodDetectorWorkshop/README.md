@@ -38,7 +38,7 @@ The mood detector is a Python app. It uses a library called [OpenCV](https://ope
 
 The Web Api will take the picture, and analyze it using the [Azure Face Api](https://azure.microsoft.com/services/cognitive-services/face/?WT.mc_id=pythonworkshop-github-jabenn) from [Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=pythonworkshop-github-jabenn). This is an AI service that can recognize faces in images, as well as estimating the age of the face, if the person is smiling amongst other things. The Web Api will use this service to detect the emotion of all the faces. This will then be saved into a database called [CosmosDB](https://azure.microsoft.com/services/cosmos-db/?WT.mc_id=pythonworkshop-github-jabenn). This is a document database - instead of storing data in rows and columns in tables, it stored data as documents. These documents contain key/value pairs of data stored in a format called [JSON](https://www.json.org). It will also return a count of emotions.
 
-The python app will use this count and ask the user questions based off it. If the number of sad faces is greater than 3 it will ask the user if they are ok. This is a simple demo around how this technology could be used for a self care app.
+The python app will use this count and ask the user if they are ok if the number of sad faces is greater than 3. This is a simple demo around how this technology could be used for a self care app.
 
 The Web Api will then have a web site added. This web site will load all the data from CosmosDB and show it in a simple HTML table, showing all details from all faces captured.
 
