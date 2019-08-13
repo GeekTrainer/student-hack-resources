@@ -20,7 +20,7 @@ To help get you started, we've put together a few resources for you to peruse.
 
 - Web
 - Machine Learning
-- Spatial Computing
+- [Spatial Computing]()
 
 ### Create Azure resources
 
