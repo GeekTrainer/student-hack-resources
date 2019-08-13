@@ -20,7 +20,7 @@ To help get you started, we've put together a few resources for you to peruse.
 
 - Web
 - Machine Learning
-- [Spatial Computing](./SpatialWorkshops)
+- [Spatial Computing](./student-hack-resources/tree/master/SpatialWorkshops)
 
 ### Create Azure resources
 
