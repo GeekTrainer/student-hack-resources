@@ -1,5 +1,8 @@
 # Build your First Web VR Game for the Absolute Beginner
-This is source and tutorial for building your first website and first web vr game - all in one!
+This is source and workshop for building your first web vr game with BabylonJS.
+
+In this workshop we switch over from VS Code to the browser based Babylon playground, located at:
+[playground.babylonjs.com](https://playground.babylonjs.com/). However if you want to stay in VS Code I recommend following the [Web VR Game TypeScript Workshop](./SpatialWorkshops/WebVrGameTypeScript/).</br>
 
 ### Create index.html and index.js files
 1. Open VS code and create a new file called index.html
@@ -88,9 +91,6 @@ scene.render();
 });
 ```
 4. Save file and navigate to the file explorer. Double click the index.html
-
-_In this workshop we switch over from VS Code to the browser based Babylon playground, located at:
-[playground.babylonjs.com](https://playground.babylonjs.com/). However if you want to stay in VS Code I recommend following the [Web VR Game TypeScript Workshop](./SpatialWorkshops/WebVrGameTypeScript/).</br>_
 
 ## Ok, to get started, let's recreate what we just did in vscode, here in the playground.
 1. Select all of the code that you see in left window, and delete it!
