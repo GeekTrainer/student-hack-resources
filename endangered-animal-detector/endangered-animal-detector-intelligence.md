@@ -25,6 +25,7 @@ First create a Custom Vision instance in your Azure account.
         * *[Note] Choose the Data Center geographically closest to you*
     * Choose the **F0 tier** for both 'Prediction pricing tier' and Training pricing tier
 * For **'Resource group'** click 'Create new' and enter a name for the folder of services and choose OK. Example: student-ai-workshop
+
 ![Create a new resource group name in pop out window](docs-images/create-resource-group-portal.JPG)
 * Click **Create**
 ![Full details to create Custom Vision service in the Azure Portal](docs-images/custom-vision-service-details.JPG)
