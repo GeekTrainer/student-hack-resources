@@ -102,7 +102,7 @@ Now we need to fill in the details to connect to our custom vision service:
 
 * **Connection Name:** enter a connection name you will associate with this logic app connector. (example: endangeredanimalcustomvision)
 * **Prediction Key:** In the **Azure Portal**, in your resource group folder you will see two services like below - select the one ending in **'_Prediction'**. In there copy the key and put in this box in logic apps
-![Select Prediction service](docs-images/select.prediction-service.JPG)
+![Select Prediction service](docs-images/select-prediction-service.JPG)
 ![Get key details](docs-images/custom-vision-prediction-key.JPG)
 * **Site URL:** As with the above in the custom vision service ending **_Prediction** copy the **Endpoint URL**
 
