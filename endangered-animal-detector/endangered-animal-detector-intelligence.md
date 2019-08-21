@@ -130,7 +130,7 @@ you have created your endangered animal detector classification model using the 
 
 ## Continue the workshop ...
 
-Build this intelligence into a process by following the next step of the tutorial **[HERE]**(endangered-animal-detector-pipeline.md)
+Build this intelligence into a process by following the next step of the tutorial **[HERE](endangered-animal-detector-pipeline.md)**
 
 
 
