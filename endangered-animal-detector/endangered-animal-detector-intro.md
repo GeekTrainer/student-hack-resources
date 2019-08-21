@@ -13,9 +13,9 @@ You will build a prototype application infused with intelligence using Azure Pla
 > All demos and content have been tested on a Windows PC, however all options should run from macOS and Linux machines as well. Please provide information via an issue or pull request if you have feedback
 
 # Go to Sections:
-* **Section 1: Azure Custom Vision** - Creating a Dog Classification Algorithm, [go to section](endangered-animal-detector/endangered-animal-detector-intelligence.md)
+* **Section 1: Azure Custom Vision** - Creating Endangered Animal Detector Classification Algorithm, [go to section](endangered-animal-detector/endangered-animal-detector-intelligence.md)
 * **Section 2: Azure Logic Apps** - Creating serverless process to analyse an image and email you, [go to section](endangered-animal-detector/endangered-animal-detector-pipeline.md)
-* **Section 3: Microsoft Powerapps** - Creating a front end application to take a picture of a dog and analyse it, [go to section](endangered-animal-detector/endangered-animal-detector-frontend.md)
+* **Section 3: Microsoft Powerapps** - Creating a front end application to take a picture of an animal and analyse it, [go to section](endangered-animal-detector/endangered-animal-detector-frontend.md)
 
 # Want to learn more about the services in this project??
 After completing the sample below be sure to check out Microsoft Learn for really great course content that will get you up-skilled in many different technologies. The relevant courses I would recommend after this project to have a look at the below:
