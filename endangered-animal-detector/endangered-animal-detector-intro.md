@@ -7,7 +7,7 @@ You will build a prototype application infused with intelligence using Azure Pla
 # Pre-Requisties for your machine:
 
 * Clone this repository to your local machine to gain images and code samples you need for the app: git clone <<ENTER LINK>> or choose 'Clone or Download' green button and then 'Download ZIP'
-* Microsoft Azure Subscription - see details on [main readme.md file](README.md)
+* Microsoft Azure Subscription - see details on [main readme.md file](../README.md)
 * Laptop with a modern web browser (Google Chrome, Microsoft Edge)
 
 > All demos and content have been tested on a Windows PC, however all options should run from macOS and Linux machines as well. Please provide information via an issue or pull request if you have feedback
