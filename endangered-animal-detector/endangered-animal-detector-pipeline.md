@@ -153,7 +153,7 @@ Add to the content of your email, some examples of what you could enter below:
 
 * **To:** [your email address]
 * **Subject:** Endangered Animal Spotted: [select Predictions Tag]
-* **Body:**The animal was spotted at: [select Created At]. This was: [select Predictions Tag]. Confidence: [select Predictions Probability] Image: [select url]
+* **Body:** The animal was spotted at: [select Created At]. This was: [select Predictions Tag]. Confidence: [select Predictions Probability] Image: [select url]
 * **Add new parameter:** select the drop down and select **Importance** check box. Once selected - you will see **Low** as an option in the dropdown.
 
 ![Email template sample to follow](docs-images/email-template.JPG)
