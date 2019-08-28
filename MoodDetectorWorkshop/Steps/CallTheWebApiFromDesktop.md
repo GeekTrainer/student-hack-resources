@@ -53,7 +53,7 @@ Web Apis can be called from Python, passing data to and receiving data from the 
   
   ```python
   ...
-  if k%256 == 32:
+  if k % 256 == 32:
     upload(frame)
     break
   ...

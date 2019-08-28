@@ -16,13 +16,13 @@ Before you can use the Face Api, you will need a subscription key. You can get t
 
 * Open the Azure Portal from [portal.azure.com](https://portal.azure.com/?WT.mc_id=pythonworkshop-github-jabenn). Log in if required.
 
-* Select *Create a resource* or select the green plus button.
+* Select **Create a resource** or select the green plus button.
 
-* Search for *Face*
+* Search for **Face**
   
   ![Searching for Face in the Azure Portal](../Images/SelectFaceInAzure.png)
 
-* Select *Face*, then select the **Create** button.
+* Select **Face**, then select the **Create** button.
 
 * Enter the required details:
   * Give this a name. This only needs to be unique to you.
@@ -75,7 +75,7 @@ The Face Api is available as a Python package.
   from msrest.authentication import CognitiveServicesCredentials
   import io
   import uuid
-  ``
+  ```
 
 * Create two variables for the Face Api endpoint and key that you noted down earlier. Add this code just above the `upload_image` function, above the route declaration.
 

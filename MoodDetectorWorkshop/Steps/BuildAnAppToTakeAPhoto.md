@@ -11,12 +11,12 @@ In this step, you will build an app in Python that will launch the camera and ta
 * Launch Visual Studio Code.
 
 * Open the newly created folder
-  * On MacOS select *File->Open...*
-  * On Windows select *File->Open Folder...*
+  * On MacOS select **File->Open...**
+  * On Windows select **File->Open Folder...**
 
 * Navigate to the new `MoodDetector` folder and select **Open**.
 
-You will see the empty folder appear in the *Explorer*.
+You will see the empty folder appear in the **Explorer**.
 
 ## Install the required Python packages
 
@@ -43,34 +43,34 @@ This app will need the OpenCV Python package. This can be installed from [Pip](h
 
 * Add the following code to this file:
   
-  ```python
-  import cv2
+```python
+import cv2
 
-  cam = cv2.VideoCapture(0)
-  cv2.namedWindow('Press space to take a photo')
+cam = cv2.VideoCapture(0)
+cv2.namedWindow('Press space to take a photo')
 
-  while True:
-    ret, frame = cam.read()
-    cv2.imshow('Press space to take a photo', frame)
+while True:
+  ret, frame = cam.read()
+  cv2.imshow('Press space to take a photo', frame)
 
-    k = cv2.waitKey(1)
-    if k%256 == 32:
-      break
+  k = cv2.waitKey(1)
+  if k % 256 == 32:
+    break
 
-  cam.release()
-  cv2.destroyAllWindows()
-  ```
+cam.release()
+cv2.destroyAllWindows()
+```
 
 * Save the file.
   
-  > If you don't want to have to remember to always save files, you can turn on Auto Save by selecting *File -> Auto Save*.
+  > If you don't want to have to remember to always save files, you can turn on Auto Save by selecting **File -> Auto Save**.
 
 ## Run the code
 
 There are two ways to run this code:
 
 * Start debugging by either:
-  * Select *Debug -> Start Debugging*
+  * Select **Debug -> Start Debugging**
   * Press **F5**
   * Select the Debug pane from the toolbar on the left and select the green *Start Debugging* button.
 

@@ -14,7 +14,7 @@ The data in the Cosmos DB collection can be converted to a table by rendering it
 
 Templates live in a folder called `templates`.
 
-* Create a new folder in Visual Studio Code inside your app folder. To do this, select the *New folder* button from the *Explorer* tab.
+* Create a new folder in Visual Studio Code inside your app folder. To do this, select the *New folder* button from the **Explorer** tab.
   
   ![The New Folder button](../Images/VSCodeNewFolder.png)
 
@@ -30,7 +30,7 @@ Templates live in a folder called `templates`.
   <!doctype html>
   <html>
     <body>
-      <table border = 1>
+      <table border='1'>
         <tr>
           <td>Emotion</td>
         </tr>
@@ -71,7 +71,7 @@ Templates live in a folder called `templates`.
   * On Windows, press Ctrl+Shift+P
   * On MacOS, press Cmd+Shift+P
 
-* Select *Azure App Service: Deploy to Web App...*
+* Select **Azure App Service: Deploy to Web App...**
   
   ![The command palette showing the Azure App Service: Deploy to Web App option](../Images/CommandPaletteDeployAppService.png)
 
@@ -105,7 +105,7 @@ The home page will no longer show `'Hello World'`, instead it will show a table 
 This is a standard HTML file with a body.
 
 ```html
-<table border = 1>
+<table border='1'>
   <tr>
     <th>Emotion</th>
   </tr>

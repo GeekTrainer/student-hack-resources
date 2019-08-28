@@ -9,25 +9,16 @@ This workshop is designed for students, and can be run using the free services a
 To complete this workshop, you will need:
 
 * An Azure account. Sign up for free using [Azure for students](https://azure.microsoft.com/free/students/?WT.mc_id=pythonworkshop-github-jabenn), or the [Azure free account](https://azure.microsoft.com/free/?WT.mc_id=pythonworkshop-github-jabenn) if you are not at an academic institution.
-* [Python 3](https://www.python.org/downloads/).
-  
+* [Python 3](https://www.python.org/downloads/)
   > If you are using Windows you will need to restart your machine after installing to ensure you can use Python and Pip from the command line.
-
 * [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=pythonworkshop-github-jabenn)
 * The [Python Extension for Visual Studio Code](https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python&WT.mc_id=pythonworkshop-github-jabenn). This can be installed from inside VS Code using the *Extensions* tab.
-  
   ![The Python extension in Visual Studio Code](./Images/PythonExtension.png)
-
 * The [Azure App Service Extension for Visual Studio Code](https://marketplace.visualstudio.com/itemdetails?itemName=ms-azuretools.vscode-azureappservice&WT.mc_id=pythonworkshop-github-jabenn). This can be installed from inside VS Code using the *Extensions* tab.
-  
   ![The Azure App Service extension in Visual Studio Code](./Images/AppServiceExtension.png)
-
 * The [Azure Cosmos DB Extension for Visual Studio Code](https://marketplace.visualstudio.com/itemdetails?itemName=ms-azuretools.vscode-cosmosdb&WT.mc_id=pythonworkshop-github-jabenn). This can be installed from inside VS Code using the *Extensions* tab.
-  
   ![The Cosmos DB extension in Visual Studio Code](./Images/CosmosExtension.png)
-
   > You will need to restart Visual Studio Code before using this extension.
-
 * A laptop with a Web Cam, or an external camera.
 
 This workshop works on MacOS and Windows.

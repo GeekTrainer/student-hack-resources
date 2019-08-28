@@ -18,12 +18,12 @@ You can configure an Azure App Service and deploy your code from inside Visual S
   * On Windows, press Ctrl+Shift+P
   * On MacOS, press Cmd+Shift+P
 
-* Select *Azure App Service: Deploy to Web App...*
+* Select **Azure App Service: Deploy to Web App...**
   
   ![The command palette showing the Azure App Service: Deploy to Web App option](../Images/CommandPaletteDeployAppService.png)
 
 * If you have never signed into Azure from Visual Studio Code before, you will be asked to sign in.
-  * Select *Sign in to Azure...*
+  * Select **Sign in to Azure...**
   * Your browser will be launched, and you can sign in with your Azure account.
   * Once signed in from the browser, you can close the web page that was launched.
 
@@ -31,7 +31,7 @@ You can configure an Azure App Service and deploy your code from inside Visual S
   
   ![The command palette showing the select subscription option](../Images/SelectDeploySubscription.png)
 
-* Select *+ Create New Web App*
+* Select **+ Create New Web App**
 
   ![The command palette showing the create web app option](../Images/CreateNewWebApp.png)
 
@@ -39,11 +39,11 @@ You can configure an Azure App Service and deploy your code from inside Visual S
 
   ![The command palette showing the new web app name option](../Images/SelectWebAppName.png)
 
-* Select the runtime for your App Service App. This is a Python app, so select the latest version of the Python runtime, such as *Python 3.7*
+* Select the runtime for your App Service App. This is a Python app, so select the latest version of the Python runtime, such as **Python 3.7**
 
   ![The command palette showing the select runtime option](../Images/SelectPythonRuntime.png)
 
-* The App Service will be created You will see a progress bar on the bottom right, and this will show you once it is complete. You can monitor the progress from the *Output* window by selecting *View -> Output* and selecting *Azure App Service* from the window selector..
+* The App Service will be created You will see a progress bar on the bottom right, and this will show you once it is complete. You can monitor the progress from the *Output* window by selecting **View -> Output** and selecting **Azure App Service** from the window selector..
 
   ![The create app service progress bar](../Images/CreateWebAppProgress.png)
 
@@ -57,7 +57,7 @@ You can configure an Azure App Service and deploy your code from inside Visual S
   
   ![The always deploy to the web app configuration dialog](../Images/AlwaysDeployDIalog.png)
 
-* A popup will appear showing the deployment progress. You can monitor the progress from the *Output* window by selecting *View -> Output* and selecting *Azure App Service* from the window selector.
+* A popup will appear showing the deployment progress. You can monitor the progress from the *Output* window by selecting **View -> Output** and selecting *Azure App Service* from the window selector.
   
   ![The deploy progress dialog](../Images/DeployProgress.png)
 

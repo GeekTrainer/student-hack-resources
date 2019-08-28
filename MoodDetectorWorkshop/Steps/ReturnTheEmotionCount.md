@@ -53,10 +53,10 @@ The format of this JSON is emotion to count, with each emotion as a separate pro
 ## Deploy the code
 
 * Open the command palette:
-  * On Windows, press Ctrl+Shift+P
-  * On MacOS, press Cmd+Shift+P
+  * On Windows, press **Ctrl+Shift+P**
+  * On MacOS, press **Cmd+Shift+P**
 
-* Select *Azure App Service: Deploy to Web App...*
+* Select **Azure App Service: Deploy to Web App...**
   
   ![The command palette showing the Azure App Service: Deploy to Web App option](../Images/CommandPaletteDeployAppService.png)
 
@@ -64,7 +64,7 @@ The format of this JSON is emotion to count, with each emotion as a separate pro
   
   ![The overwrite existing deploy dialog](../Images/OverwriteDeploy.png)
 
-* A popup will appear showing the deployment progress. You can monitor the progress from the *Output* window by selecting *View -> Output* and selecting *Azure App Service* from the window selector.
+* A popup will appear showing the deployment progress. You can monitor the progress from the **Output** window by selecting **View -> Output** and selecting **Azure App Service** from the window selector.
   
   ![The deploy progress dialog](../Images/DeployProgress.png)
 

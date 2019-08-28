@@ -114,9 +114,9 @@ There is a Cosmos DB client available as a Python package.
                                       auth = {'masterKey': cosmos_primary_key})
   ```
 
-* Find the new collection in the *COSMOS DB* panel in the *Azure* tab.
+* Find the new collection in the **COSMOS DB** panel in the **Azure** tab.
 
-* Right-click on the collection and select *Copy connection string*.
+* Right-click on the collection and select **Copy connection string**.
   
   ![Copying the cosmos connection string](../Images/CopyConnectionString.png)
 
@@ -156,7 +156,7 @@ There is a Cosmos DB client available as a Python package.
   * On Windows, press Ctrl+Shift+P
   * On MacOS, press Cmd+Shift+P
 
-* Select *Azure App Service: Deploy to Web App...*
+* Select **Azure App Service: Deploy to Web App...**
   
   ![The command palette showing the Azure App Service: Deploy to Web App option](../Images/CommandPaletteDeployAppService.png)
 
