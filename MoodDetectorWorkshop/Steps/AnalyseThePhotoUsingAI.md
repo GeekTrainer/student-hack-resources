@@ -112,7 +112,7 @@ The Face Api is available as a Python package.
 * In the `upload_image` function, add the following code to the bottom, but **before** the `return 'OK` statement:
 
     ```python
-    image = io.BytesIO(b)
+    image = io.BytesIO(base64_image)
     faces = face_client.face.detect_with_stream(image,
                                                 return_face_attributes=['emotion'])
 
@@ -189,7 +189,7 @@ return max(zip(emotions.values(), emotions.keys()))[1]
 This code looks through the dictionary of emotions and detects the one with the highest likelihood, returning its name as the return value of the `best_emotion` function.
 
 ```python
-image = io.BytesIO(b)
+image = io.BytesIO(base64_image)
 ```
 
 The face client cannot process raw binary data directly, so it needs a stream of data. This is a wrapper around the binary data containing the image and makes it easier for the face client to read.

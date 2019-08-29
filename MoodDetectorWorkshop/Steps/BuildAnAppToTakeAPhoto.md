@@ -53,8 +53,8 @@ This app will need the OpenCV Python package. This can be installed from [Pip](h
     ret, frame = cam.read()
     cv2.imshow('Press space to take a photo', frame)
 
-    k = cv2.waitKey(1)
-    if k%256 == 32:
+    key = cv2.waitKey(1)
+    if key%256 == 32:
       break
 
   cam.release()
@@ -136,13 +136,13 @@ cv2.imshow('Press space to take a photo', frame)
 This reads the current image from the camera into the `frame` variable. This is then shown inside the window named `Press space to take a photo`. This causes the image from the camera to appear inside the window that was created earlier.
 
 ```python
-k = cv2.waitKey(1)
+key = cv2.waitKey(1)
 ```
 
-This reads a key from the board, waiting 1 millisecond for a key to be pressed. If a key is pressed, `k` will be a value indicating which key was pressed, otherwise it will be `-1`.
+This reads a key from the board, waiting 1 millisecond for a key to be pressed. If a key is pressed, `key` will be a value indicating which key was pressed, otherwise it will be `-1`.
 
 ```python
-if k%256 == 32:
+if key%256 == 32:
   break
 ```
 

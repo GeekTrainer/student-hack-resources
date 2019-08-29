@@ -43,7 +43,7 @@ This complete JSON text is referred to as a document, and is always enclosed in 
   @app.route('/image', methods=['POST'])
   def upload_image():
     json = request.get_json()
-    b = base64.b64decode(json['image'])
+    base64_image = base64.b64decode(json['image'])
 
     return 'OK'
   ```
@@ -79,7 +79,7 @@ json = request.get_json()
 The `request` object comes from Flask and provides details about the request that was sent to the Web Api. This request will contain any data that was sent, along with other information. The `get_json` method extracts the JSON from the request.
 
 ```python
-b = base64.b64decode(json['image'])
+base64_image = base64.b64decode(json['image'])
 ```
 
 The JSON data has a key called `image` that will contain the image as Base64 encoded text, so this code extracts the value for that key and converts it back to binary data.

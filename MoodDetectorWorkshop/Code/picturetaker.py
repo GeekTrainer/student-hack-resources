@@ -23,8 +23,8 @@ while True:
     ret, frame = cam.read()
     cv2.imshow('Press space to take a photo', frame)
         
-    k = cv2.waitKey(1)
-    if k%256 == 32:
+    key = cv2.waitKey(1)
+    if key%256 == 32:
         upload(frame)
         break
 

@@ -36,7 +36,7 @@ The format of this JSON is emotion to count, with each emotion as a separate pro
   ```python
   def get_emotions():
     docs = list(client.ReadItems(cosmos_collection_link))
-    emotions = [d['emotion'] for d in docs]
+    emotions = [doc['emotion'] for doc in docs]
     counts = dict()
     for emotion in emotions:
       counts[emotion] = counts.get(emotion, 0) + 1
@@ -99,7 +99,7 @@ docs = list(client.ReadItems(cosmos_collection_link))
 This code uses the Cosmos DB client to read all the items from the `faces` collection into a `list`.
 
 ```python
-emotions = [d['emotion'] for d in docs]
+emotions = [doc['emotion'] for doc in docs]
 ```
 
 This code iterates through the items read from Cosmos DB and extracts the emotion value. The documents extracted from Cosmos DB are created as dictionaries, so this code extracts the `'emotion'` property from each document in the dictionary, and puts these into a list.

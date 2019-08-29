@@ -39,7 +39,7 @@ def best_emotion(emotion):
 
 def get_emotions():
     docs = list(client.ReadItems(cosmos_collection_link))
-    emotions = [d['emotion'] for d in docs]
+    emotions = [doc['emotion'] for doc in docs]
     counts = dict()
     for emotion in emotions:
         counts[emotion] = counts.get(emotion, 0) + 1
@@ -49,9 +49,9 @@ def get_emotions():
 @app.route('/image', methods=['POST'])
 def upload_image():
     json = request.get_json()
-    b = base64.b64decode(json['image'])
+    base64_image = base64.b64decode(json['image'])
 
-    image = io.BytesIO(b)
+    image = io.BytesIO(base64_image)
     faces = face_client.face.detect_with_stream(image,
                                                 return_face_attributes=['emotion'])
 
