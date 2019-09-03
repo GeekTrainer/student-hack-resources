@@ -3,13 +3,16 @@
 
 In this section you will build an Azure Logic App to consume your Custom Vision Endangered Animal Detector classification application
 
-First we need to create an Azure Storage Account.
+First we need to create two Azure Storage Accounts.
 
 Go to the **azure portal** and click **create new resource** in the top left corner. Select the section **Storage** and choose the first option **Storage Account**.
 
 ![Select Storage account in Azure Portal](docs-images/storage-account.JPG)
 
-We are going to create a storage account for the images to be dropped into to be processed (called endangeredanimaldetector)
+1. We are going to create a storage account for the images to be dropped into to be processed (called endangeredanimaldetector)
+2. And a storage account for the output to be dropped into to review (called endangeredanimaloutput)
+
+*follow the process below for each of the storage accounts mentioned above*
 
 On the storage account creation page enter options to setup your storage account
 
@@ -27,19 +30,23 @@ Select **Review + create**, confirm validation is passed and then select **Creat
 
 ![Storage account details to follow](docs-images/storage-account-details.JPG)
 
+*Repeat this process for both storage accounts before continuing*
+
 Once your deployment is complete, got to the resource and review the account settings. Select Blobs to review your empty blob storage account.
 
 ![Review Blob Storage Details](docs-images/blob-storage-account-page.JPG)
 
 We need to add a container to the storage account to store our images and results.
 
-Select the **+ Container** button and create a name for the container for example the **endangeredanimalsdetector** account would have an **images** container/folder
-
-For the public access level setting select **Container (anonymous read access for containers and blobs)**
+* Select the **+ Container** button
+* Create a name for the container
+    * for example the **endangeredanimalsdetector** account would have an **images** container/folder
+    * for example the **endangeredanimalsoutput** account would have a **results** container/folder
+* For the public access level setting select **Container (anonymous read access for containers and blobs)**
 
 ![create images container](docs-images/create-stor-container.JPG)
 
-Now we will create a **Logic App** - this will connect your image storage account to your AI classification service and send you an email with the results
+Now we will create a **Logic App** - this will connect your image storage account to your AI classification service and send the results to the results storage account in a csv file
 
 Head to the **Azure Portal Homepage**. We are going to use **Event Grid**, a service that detects triggers in an Azure subscription (in our case, when a new blob is created in your Azure Storage account). Before we build with this - **we must register it**.
 
@@ -137,26 +144,23 @@ Set the condition to be **Predictions Probability** greater than 0.7 (as shown b
 
 In the **If True** box select **Add an action**
 
-Search for **outlook** and select the icon for **Office 365 Outlook**
+> You have two options to continue with: 
+> * If you have an Office 365 subscription with your university account - [check out the personalized email output here](endangered-animal-detector-O365-output.md)
+> * Else, carry on with the instructions below and output the data to an output storage account
 
-![Outlook options](docs-images/outlook.JPG)
+First connect to your storage account in the Logic App:
+* Select 'Azure Blob Storage'
+* Then 'Create Blob'
+* Create a connection name, for example result-storage
+* Select your output storage account
 
-Next sign into your Outlook email account and allow it access to the logic app
+Next setup the content of the output blob:
+* folder path is your 'results' container within your output storage account. You can use the folder icon to select this
+* Blob name select 'Classify an image url' and then 'Id'.csv
+* Blob content select 'Classify an image url' 'Predictions Tag' : 'Predictions Probability'
 
-![Outlook sign in](docs-images/outlook-sign-in.JPG)
+![Create Blob Storage content](docs-images/create-blob-content.JPG)
 
-Next select the **Send an Email** option - it might be easiest to search for send
-
-![Send an email option](docs-images/send-email.JPG)
-
-Add to the content of your email, some examples of what you could enter below:
-
-* **To:** [your email address]
-* **Subject:** Endangered Animal Spotted: [select Predictions Tag]
-* **Body:** The animal was spotted at: [select Created At]. This was: [select Predictions Tag]. Confidence: [select Predictions Probability] Image: [select url]
-* **Add new parameter:** select the drop down and select **Importance** check box. Once selected - you will see **Low** as an option in the dropdown.
-
-![Email template sample to follow](docs-images/email-template.JPG)
 
 Finally save the logic app in the top action bar
 
@@ -176,10 +180,11 @@ All sections should have a green tick and you can select each one to view the in
 
 ![Completed run to dig into](docs-images/run-complete.JPG)
 
-You should now have received an email containing the content about the image.
+In the final part of the run you can review the blob storage output
+![Blob Storage output in Logic App](docs-images/blob-output.JPG)
 
-![Sample email](docs-images/email-sample.jpeg)
-
+and also find the file in your output storage account results folder
+![CSV Blob Storage account](docs-images\csv-blob-output.JPG)
 
 
 ## Congratulations! 
