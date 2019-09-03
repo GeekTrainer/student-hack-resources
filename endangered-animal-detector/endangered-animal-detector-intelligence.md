@@ -3,13 +3,13 @@
 
 Using Azure Custom Vision service you can start to build your own personalised image classification and object detection algorithms with very little code. In this section we will create en endangered animal detector classification algorithm using the images provided in this repository
 
-We have **3 Classes** of endangered animals each with **45 images** (available in a .zip file here)
+We have **3 Classes** of endangered animals each with **45 images** [(available in a .zip file here)](endangered-animals-images.zip)
 
 * Arctic Fox
 * Polar Bear
 * Walrus
 
-There is also a set of **test images** (not for training) in this .zip folder.
+There is also a set of **test images** (not for training) in [the .zip folder](endangered-animals-images.zip).
 
 First create a Custom Vision instance in your Azure account.
 
