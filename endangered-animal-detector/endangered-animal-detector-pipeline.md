@@ -184,7 +184,7 @@ In the final part of the run you can review the blob storage output
 ![Blob Storage output in Logic App](docs-images/blob-output.JPG)
 
 and also find the file in your output storage account results folder
-![CSV Blob Storage account](docs-images\csv-blob-output.JPG)
+![CSV Blob Storage account](docs-images/csv-blob-output.JPG)
 
 
 ## Congratulations! 
