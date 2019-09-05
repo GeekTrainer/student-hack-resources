@@ -19,7 +19,7 @@ You can get started by creating an account on Azure. There's three different opt
 To help get you started, we've put together a few resources for you to peruse.
 
 - Web
-- Machine Learning
+- [Machine Learning](endangered-animal-detector/endangered-animal-detector-intro.md)
 - Spatial Computing
 
 ### Create Azure resources
