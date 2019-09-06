@@ -41,5 +41,5 @@ Then update the sphere position in the `sphere.ts` file so it doesn't create 10 
     sphere.position = new Vector3(Math.random() * 20 - 10, 10, Math.random() * 10 - 5);
 ```
 
-[Prev Step](.\step2.md)
-[Next Step](.\step2.md)
+[<- Prev Step](step4.md) |
+[Next Step ->](step6.md)

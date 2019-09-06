@@ -80,5 +80,5 @@ var startGameButton = function (panel) {
 
 In the `sphere.ts` we need to `import { incrementScore } from "./score";` script and then add the `incrementScore();` after `removeParticlesFromMesh(particleSystem);` to increase the score when a sphere is clicked.
 
-[Prev Step](.\step2.md)
-[Next Step](.\step2.md)
+[<- Prev Step](step6.md) |
+[Next Step ->](step8.md)

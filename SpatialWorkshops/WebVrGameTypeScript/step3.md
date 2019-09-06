@@ -30,5 +30,5 @@ addSphere(scene);
 
 Now would be a good time to `npm run build` and refresh your browser to see that you completed the logic move successfully.
 
-[Prev Step](.\step2.md)
-[Next Step](.\step2.md)
+[<- Prev Step](step2.md) |
+[Next Step ->](step4.md)

@@ -121,5 +121,5 @@ Update the sphere on click event to add the particle system and add the sleep fu
     }
 ```
 
-[Prev Step](.\step2.md)
-[Next Step](.\step2.md)
+[<- Prev Step](step5.md) |
+[Next Step ->](step7.md)

@@ -58,5 +58,5 @@ Then update the `create sphere` logic to the below:
 
 Now we have a sphere falling onto the ground panel we created. How exciting. To change the speed in which the sphere falls change the `gravityVector` numbers!
 
-[Prev Step](.\step2.md)
-[Next Step](.\step2.md)
+[<- Prev Step](README.md) |
+[Next Step ->](step3.md)

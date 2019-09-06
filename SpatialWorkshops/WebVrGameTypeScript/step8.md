@@ -78,4 +78,4 @@ Shout out to the awesome docs and [playground](https://doc.babylonjs.com/example
 
 Happy game building!
 
-[Prev Step](.\step2.md)
+[<- Prev Step](step7.md)
