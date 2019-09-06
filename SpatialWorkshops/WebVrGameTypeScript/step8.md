@@ -1,3 +1,5 @@
+## Remove physics imposter, add material and deploy with Azure
+
 ## Remove `PhysicsImpostor` from ground mesh so balls fall through the ground instead of sitting on top
 
 We don't want people to be able to shoot the balls on the ground so we need to delete the `PhysicsImpostor` from the ground mesh.
@@ -69,13 +71,5 @@ Ok lets `npm run build` and see if it works!
 
 Let's deploy site to azure storage as a static site so all your friends can play too
 [Check out the docs on how to host this site for cheap on Azure](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website).
-
-## More resources
-
-[Full git repo of end of project](https://github.com/cassieview/WebVR-ExploadingSpheres-Babylonjs)
-
-Shout out to the awesome docs and [playground](https://doc.babylonjs.com/examples/) on [Babylonjs](https://babylonjs.com) and the awesome developers that did the hard work to create a sweet library to enable us to build games!
-
-Happy game building!
 
 [<- Prev Step](step7.md)

@@ -1,4 +1,4 @@
-## Time to start building out the game!
+## Start building out the game!
 
 Now you should have a basic understanding of whats in the starter project and what BabylonJS is doing for us. Next we want to add gravity so we need the CannonJS physics library mentioned above. 
 
@@ -58,5 +58,5 @@ Then update the `create sphere` logic to the below:
 
 Now we have a sphere falling onto the ground panel we created. How exciting. To change the speed in which the sphere falls change the `gravityVector` numbers!
 
-[<- Prev Step](README.md) |
+[<- Prev Step](step1.md) |
 [Next Step ->](step3.md)
