@@ -128,4 +128,4 @@ engine.runRenderLoop(() => {
 });
 ```
 
-<button name="button" onclick=".\step2.md">Next Step</button>
+[Next Step](.\step2.md)

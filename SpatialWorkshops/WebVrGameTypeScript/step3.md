@@ -30,5 +30,5 @@ addSphere(scene);
 
 Now would be a good time to `npm run build` and refresh your browser to see that you completed the logic move successfully.
 
-<button name="button" onclick="http://www.google.com">Prev Step</button>
-<button name="button" onclick=".\step2.md">Next Step</button>
+[Prev Step](.\step2.md)
+[Next Step](.\step2.md)

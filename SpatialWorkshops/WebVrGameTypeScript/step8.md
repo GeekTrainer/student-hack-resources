@@ -78,4 +78,4 @@ Shout out to the awesome docs and [playground](https://doc.babylonjs.com/example
 
 Happy game building!
 
-<button name="button" onclick="http://www.google.com">Prev Step</button>
+[Prev Step](.\step2.md)

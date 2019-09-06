@@ -39,5 +39,5 @@ Update the `createScene` function to add the button to the scene. This will go w
 
 This would be a good time to `npm run build` and test the changes you made. When you click the button the sphere should drop from the sky onto the ground.
 
-<button name="button" onclick="http://www.google.com">Prev Step</button>
-<button name="button" onclick=".\step2.md">Next Step</button>
+[Prev Step](.\step2.md)
+[Next Step](.\step2.md)

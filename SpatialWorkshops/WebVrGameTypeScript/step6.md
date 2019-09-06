@@ -121,5 +121,5 @@ Update the sphere on click event to add the particle system and add the sleep fu
     }
 ```
 
-<button name="button" onclick="http://www.google.com">Prev Step</button>
-<button name="button" onclick=".\step2.md">Next Step</button>
+[Prev Step](.\step2.md)
+[Next Step](.\step2.md)

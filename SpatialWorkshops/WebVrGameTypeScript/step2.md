@@ -58,5 +58,5 @@ Then update the `create sphere` logic to the below:
 
 Now we have a sphere falling onto the ground panel we created. How exciting. To change the speed in which the sphere falls change the `gravityVector` numbers!
 
-<button name="button" onclick="http://www.google.com">Prev Step</button>
-<button name="button" onclick=".\step2.md">Next Step</button>
+[Prev Step](.\step2.md)
+[Next Step](.\step2.md)
