@@ -23,14 +23,14 @@ In this workshop you will learn how to build a Web VR game with BabylonJS and [T
 TypeScript compiles to clean, simple JavaScript code which runs on any browser, in Node.js, or in any JavaScript engine that supports [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) 3 (or newer).
 
 ## Steps
-[Step 1 - Getting started with the starter project](step1.md)
-[Step 2 - Start building out the game!](step2.md)
-[Step 3 - Project Architecture](step3.md)
-[Step 4 - Add the start button](step4.md)
-[Step 5 - Make sphere disappear on click](step5.md)
-[Step 6 - Add particle animation to sphere to mimic an explosion](step6.md)
-[Step 7 - Add score.ts because every game needs a way to keep score](step7.md)
-[Step 8 - Remove physics imposter, add material and deploy with Azure](step8.md)
+[Step 1 - Getting started with the starter project](step1.md) </br>
+[Step 2 - Start building out the game!](step2.md)</br>
+[Step 3 - Project Architecture](step3.md)</br>
+[Step 4 - Add the start button](step4.md)</br>
+[Step 5 - Make sphere disappear on click](step5.md)</br>
+[Step 6 - Add particle animation to sphere to mimic an explosion](step6.md)</br>
+[Step 7 - Add score.ts because every game needs a way to keep score](step7.md)</br>
+[Step 8 - Remove physics imposter, add material and deploy with Azure](step8.md)</br>
 
 ## More resources
 
