@@ -16,8 +16,9 @@ In th [previous step](./CallTheWebApiFromDesktop.md) you connected the photo tak
   
   ```python
   def check_sadness(emotions):
-    if emotions['sadness'] >= 3:
-      print('Are you feeling ok? Do you want to talk about it?')
+    if 'sadness' in emotions:
+      if emotions['sadness'] >= 3:
+        print('Are you feeling ok? Do you want to talk about it?')
   ```
 
 * In the `upload` function, change the call to `post` the image to store the return value of this call and pass it to the new `check_sadness` function.
@@ -75,11 +76,12 @@ def check_sadness(emotions):
 This code declares the `check_sadness` function to check the results for how many times sadness was detected based on a dictionary of emotion to count.
 
 ```python
-if emotions['sadness'] >= 3:
-    print('Are you feeling ok? Do you want to talk about it?')
+if 'sadness' in emotions:
+    if emotions['sadness'] >= 3:
+      print('Are you feeling ok? Do you want to talk about it?')
 ```
 
-The `emotions` dictionary is keyed of the emotion name, with the value being the count of the number of times that emotion was detected. This code checks the number of times sadness was detected and if it is greater than 3 prints a message to the console.
+The `emotions` dictionary is keyed of the emotion name, with the value being the count of the number of times that emotion was detected. This code checks if the `'sadness`' key exists, and the number of times sadness was detected. If it is greater than 3 it prints a message to the console.
 
 ```python
 results = requests.post(url=imageUrl, json=data)

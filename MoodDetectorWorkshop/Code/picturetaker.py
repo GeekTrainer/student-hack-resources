@@ -6,8 +6,9 @@ import json
 imageUrl = '<Your App Url>/image'
 
 def check_sadness(emotions):
-    if emotions['sadness'] >= 3:
-        print('Are you feeling ok? Do you want to talk about it?')
+    if 'sadness' in emotions:
+        if emotions['sadness'] >= 3:
+            print('Are you feeling ok? Do you want to talk about it?')
 
 def upload(frame):
     data = {}
