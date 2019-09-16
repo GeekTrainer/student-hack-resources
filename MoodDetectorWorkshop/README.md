@@ -4,6 +4,10 @@ This workshop shows how to build a web app using [Python](https://www.python.org
 
 This workshop is designed for students, and can be run using the free services available as part of the [Azure for students](https://azure.microsoft.com/free/students/?WT.mc_id=pythonworkshop-github-jabenn) offer.
 
+## Train the trainer video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Cg2MlVByJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Prerequisites
 
 To complete this workshop, you will need:
