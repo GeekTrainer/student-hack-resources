@@ -6,6 +6,8 @@ This workshop is designed for students, and can be run using the free services a
 
 ## Train the trainer video
 
+The train the trainer video showing a walk through of this workshop is [here](https://youtu.be/_Cg2MlVByJQ).
+
 [![Open the train the trainer video in YouTube](./Images/Video.png)](https://youtu.be/_Cg2MlVByJQ)
 
 ## Prerequisites
