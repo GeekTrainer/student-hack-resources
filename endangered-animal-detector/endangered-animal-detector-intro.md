@@ -4,6 +4,11 @@ In this 60 min workshop you will create a cloud application that will **help det
 
 You will build a prototype application infused with intelligence using Azure Platform-as- a-Service (PaaS) offerings such as [Azure Custom Vision service](https://www.customvision.ai), [Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview) and [Bonus] [Microsoft PowerApps's](https://docs.microsoft.com/en-us/powerapps/#pivot=home&panel=maker) platforms. By linking these services together you can build reliable, scalable AI applications and get your users testing them as soon as possible.
 
+* Watch the [train-the-trainer video](https://youtu.be/iR07ZShptyI) to see what this workshop is all about
+* Follow the workshop instructions below to learn and build the endangered animal classifier application yourself
+* Explore the supporting-presentation materials folder for presentation slides to help you deliver this session yourself
+
+
 # Pre-Requisties for your machine:
 
 * Clone this repository to your local machine to gain images and code samples you need for the app: git clone <<ENTER LINK>> or choose 'Clone or Download' green button and then 'Download ZIP'
