@@ -31,11 +31,13 @@ TypeScript compiles to clean, simple JavaScript code which runs on any browser, 
 [Step 6 - Add particle animation to sphere to mimic an explosion](step6.md)</br>
 [Step 7 - Add score.ts because every game needs a way to keep score](step7.md)</br>
 [Step 8 - Remove physics imposter, add material and deploy with Azure](step8.md)</br>
+[Step 9 - Host on Azure](step9.md)
 
 ## More resources
 
-[Full git repo of end of project](https://github.com/cassieview/WebVR-ExploadingSpheres-Babylonjs)
-
+[Full git repo of end of project](https://github.com/cassieview/WebVR-ExploadingSpheres-Babylonjs)</br>
+[Full demo video](https://youtu.be/ENdeAFUpxNc)</br>
+[Powerpoint Slide Deck](https://webvrgamesphere.blob.core.windows.net/slidedeck/BabylonjsPresentation.pptx)</br>
 Shout out to the awesome docs and [playground](https://doc.babylonjs.com/examples/) on [Babylonjs](https://babylonjs.com) and the awesome developers that did the hard work to create a sweet library to enable us to build games!
 
 Happy game building!
