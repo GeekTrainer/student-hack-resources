@@ -67,9 +67,5 @@ Ok lets `npm run build` and see if it works!
 - custom meshes
 - sound effects
 
-## Deployment
-
-Let's deploy site to azure storage as a static site so all your friends can play too
-[Check out the docs on how to host this site for cheap on Azure](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website).
-
-[<- Prev Step](step7.md)
+[<- Prev Step](step7.md) |
+[Next Step ->](step9.md)
